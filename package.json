@@ -22,7 +22,8 @@
   "author": "ktb1207",
   "license": "MIT",
   "peerDependencies": {
-    "prettier": "^3.3.2"
+    "prettier": "^3.2.5",
+    "webpack": "^5.91.0"
   },
   "devDependencies": {
     "prettier": "^3.3.2",
