@@ -1,0 +1,31 @@
+{
+  "name": "compiler-prettier-webpack-plugin",
+  "version": "1.0.1",
+  "description": "在webpack编译时，依据本地prettier配置文件统一格式化指定扩展文件",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup --config rollup.config.js --watch",
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [
+    "prettier",
+    "webpack",
+    "plugin",
+    "webpack-plugin",
+    "webpack-prettier"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "ktb1207",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^3.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "rollup": "^4.18.0"
+  }
+}
