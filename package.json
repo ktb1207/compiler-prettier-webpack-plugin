@@ -4,6 +4,9 @@
   "description": "在webpack编译时，依据本地prettier配置文件统一格式化指定扩展文件",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup --config rollup.config.js --watch",
@@ -25,6 +28,9 @@
   },
   "author": "ktb1207",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktb1207/compiler-prettier-webpack-plugin/issues"
+  },
   "homepage": "https://github.com/ktb1207/compiler-prettier-webpack-plugin/blob/main/README.md",
   "peerDependencies": {
     "prettier": "^3.2.5",
