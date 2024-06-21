@@ -9,6 +9,10 @@
     "dev": "rollup --config rollup.config.js --watch",
     "build": "rollup --config rollup.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ktb1207/compiler-prettier-webpack-plugin.git"
+  },
   "keywords": [
     "prettier",
     "webpack",
@@ -21,6 +25,7 @@
   },
   "author": "ktb1207",
   "license": "MIT",
+  "homepage": "https://github.com/ktb1207/compiler-prettier-webpack-plugin/blob/main/README.md",
   "peerDependencies": {
     "prettier": "^3.2.5",
     "webpack": "^5.91.0"
